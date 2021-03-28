@@ -11,5 +11,10 @@ public class Controller {
 
     @GetMapping("/1")
     public String getTodo( String id)  {
-        return "Hello Antima";
-    }}
+        return "Hello Antima from tmp1";
+    }
+    @GetMapping("/2")
+    public String getTodo2( String id)  {
+        return "Hello Antima from tmp 2";
+    }
+}
